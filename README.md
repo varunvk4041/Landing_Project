@@ -1,2 +1,6 @@
 # Landing_Project
-A basic layout for a landing project. I might use this later for my own portfolio!
+Environment Conservation Website
+
+Recycle and Repair our Earth, showing various facts about 
+impacts of our activities on the environment and how
+we can reverse the damage or atleast minimize it.
