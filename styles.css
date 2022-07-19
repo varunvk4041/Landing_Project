@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&display=swap');
 
 body {
     margin: 0;
     text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .header {
@@ -69,7 +74,8 @@ button {
 }
 
 button:hover {
-    background-color: green
+    background-color: green;
+    box-shadow: 2px 2px 2px black;
 }
 
 .header h1,
@@ -80,9 +86,11 @@ button:hover {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-.info{
+
+.info {
     padding: 0 10%
 }
+
 .content h1 {
     font-size: 36px;
     color: #1f2937;
@@ -91,28 +99,103 @@ button:hover {
     margin: 3rem
 }
 
-.img_container{
-    display:flex;
-    gap: 2rem;
-    margin: 1rem;
+.img-container {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
 }
 
-.img_container img {
-    border: 4px solid #1f2937;
+.img-container img {
+    width: 95%;
+    height: 150px;
     border-radius: 10px;
-    width:75%;
-    height:50%
+    border: 3px solid #1f2937;
 }
-.img-text{
-    color:#1f2937;
-    font-size: 20px;
-    font-family: Roboto,sans-serif;
-    font-weight: 400;
-    display:flex;
+
+.img-text {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: stretch;
+    flex: 1 1 0;
 }
-.img-text p{
-    padding: 4px
+
+.img-container p {
+    margin: 8px 1rem;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: italic;
+    color: #1f2937;
+    padding: 5% 10%
+}
+
+.quoter {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.cta {
+    margin: 7% 15%;
+    text-align: left;
+    padding: 1% 5%;
+    display: flex;
+    justify-content: space-between;
+    background: #3882f6;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 10px;
+
+}
+
+.cta-text h2 {
+    font-weight: 600;
+    font-size: 24px;
+    padding-right: 4rem;
+}
+
+.cta-text p {
+    font-weight: 400;
+    font-size: 18px;
+    color: beige
+}
+
+.cta button {
+    background-color: #1f2937;
+    height: 3rem;
+    width: 200px;
+    padding: 5px;
+    align-self: center;
+}
+
+.cta button:hover {
+    background-color: green;
+    box-shadow: 2px 2px 4px #1f2937;
+}
+
+.info img:hover {
+    transform: scale(1.01);
+    border: 4px solid #1f2937;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 1rem;
+    font-size: 1;
+    font-family: Roboto, sans-serif;
+    color: white
+}
+
+.footer img {
+    border-radius: 50%;
+    width: 5%;
+}
+
+.footer img:hover {
+    box-shadow: 1px 1px 1px white;
 }
