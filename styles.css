@@ -178,9 +178,9 @@ button:hover {
     box-shadow: 2px 2px 4px #1f2937;
 }
 
-.info img:hover {
-    transform: scale(1.01);
-    border: 4px solid #1f2937;
+.info img:hover ,.footer img:hover{
+    transform: scale(1.02);
+    box-shadow: 0 1px black
 }
 
 .footer {
@@ -194,8 +194,5 @@ button:hover {
 .footer img {
     border-radius: 50%;
     width: 5%;
-}
-
-.footer img:hover {
-    box-shadow: 1px 1px 1px white;
+    border: 1px solid white
 }
